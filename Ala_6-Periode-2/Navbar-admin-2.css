@@ -1,0 +1,90 @@
+
+.top-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    color: white;
+    padding: 1em;
+}
+
+.menu {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu a {
+    display: inline-block;
+    vertical-align: top;
+    padding: 14px 16px;
+    color: white;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.menu a:hover {
+    background-color: red;
+    border: 1px solid red; /* Add border on hover */
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+    color: white;
+   
+}
+
+.dropbtn {
+    font-size: 17px;
+    border: none;
+    outline: none;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    color: white;
+    cursor: pointer;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 160px;
+    border-radius: 10px;
+    z-index: 1;
+}
+
+.dropdown-content a {
+    display: block;
+    padding: 12px 16px;
+    text-decoration: none;
+    text-align: left;
+    color: white;
+}
+
+.dropdown-content a:hover {
+    background-color: grey;
+    border: 1px solid grey; /* Add border on hover */
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.navbar-logo {
+    background-color: white;
+    background-image: url("Logo_Ala.png");
+    border-radius: 50%;
+    width: 45px;
+    height: 45px;
+    margin-right: 0.5em;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+  * {
+    font-family: "Raleway";
+    box-sizing: border-box;
+  }

@@ -1,0 +1,53 @@
+html, body{
+    margin: 0;
+    background: linear-gradient(rgb(0, 0, 0),rgb(140, 140, 140) );
+  }
+  body {
+    margin: 0;
+    padding-bottom: 60px; /* Voeg padding toe aan de onderkant van de pagina, gelijk aan de hoogte van de footer */
+    background: linear-gradient(rgb(0, 0, 0), rgb(140, 140, 140));
+  }
+  form {
+      max-width: 600px;
+      margin: 20px auto;
+      padding: 20px;
+      background-color: #fff;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  label {
+      display: block;
+      margin-bottom: 8px;
+      font-weight: bold;
+  }
+  
+  input[type="text"],
+  textarea,
+  input[type="file"] {
+      width: 100%;
+      padding: 8px;
+      margin-bottom: 15px;
+      box-sizing: border-box;
+  }
+  textarea{
+    height: 150px; /* Pas de gewenste hoogte aan voor het tekstveld */
+      resize: none;
+  }
+  input[type="submit"] {
+    border: none;
+    border-radius: 5px;
+    padding: 12px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #282A35;
+    color: white;
+    position: relative;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: rgb(92, 19, 12);
+  }
+  h2{
+    color: white;
+  }

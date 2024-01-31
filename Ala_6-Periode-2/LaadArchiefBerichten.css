@@ -1,0 +1,16 @@
+html, body {
+    margin: 0;
+    background: linear-gradient(rgb(0, 0, 0),rgb(140, 140, 140));
+  }
+ 
+.Archief-item{
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #222;
+    display: block;
+    margin: 20px;
+    padding: 10px;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  }
